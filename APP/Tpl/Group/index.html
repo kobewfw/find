@@ -1,0 +1,66 @@
+<include file='Public:header' />
+	<title>Find - 小组--海文考研--的空间</title>
+
+	<link href="__PUBLIC__/Css/group.css" rel="stylesheet">
+<script>
+	var addHuati = "{:U(addHuati)}";
+</script>
+	
+<include file='Public:nav' />
+<div id="g_cont">
+	<div class="left">
+		<div class="g_info">
+			<img src="__PUBLIC__/Images/02.jpg">
+			<div class="g_i_tro">
+				<div><h5>{$group.gname}</h5></div>
+				<p>{$group.gintro}</p>
+				<input type="hidden" class="hid_gid" value="{$group.gid}" />
+				<div class="g_info_tool"><span>已有25人加入...</span>&nbsp;&nbsp;<a href="javascript:void(0);">马上加入</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>话题&nbsp;200条</span></div>
+
+			</div>
+		</div>
+		<div class="gonggao">
+			<h5>公告栏:</h5>
+			<p>暂无公告...</p>
+			<ul>
+				<li>海文考研今天下午在J5-211举办海文英语集训会<span>2014-09-07</span></li>
+				<li>海文考研今天下午在J5-211举办海文英语集训会海文考研今天下午在J5-211举办海文英语集训会海文考研今天下午在J5-211举办海文英语集训会<span>2014-09-07</span></li>
+			</ul>
+		</div>
+
+		<div id="g_huati">
+			<h5>话题:</h5>
+			<ul>
+				<foreach name="huati" item="vo">
+				<li>
+					<a href="__APP__/Group/huati/hid/{$vo.hid}">{$vo.title}</a><span>23人参与讨论</span></li>
+				</foreach>
+
+			</ul>
+			<div class="g_page">{$page}</div>
+
+		</div>
+		<div id="g_ask">
+			<h5 style="margin-bottom:15px;float:left;">发起讨论</h5>
+			<if condition="cookie('uid')" >
+				<div id="g_a_form"  action="" method="post">
+					<div style="font-size:12px;clear:both;">标题:<input class="title" type="text" name="title" placeholder="好的标题，吸引更多人关注..."/>
+					<input type="hidden" value="{$group.gid}" class="gid" name="gid">
+					</div><br />
+					<div ><span style="float:left;font-size:12px;">内容:</span>
+					<textarea class="content" name="content" placeholder="添加话题描述..."></textarea>
+					</div>
+					<div><button class="fabu_btn">发布</button>
+					</div>
+				</div>
+			
+			<else />
+				<span class="fqtl">您还没有登陆，暂不能发起讨论...</span>
+			</if>
+		</div>
+	</div>
+	<div class="right">
+	</div>
+
+</div>
+<include file="Public:footer" />

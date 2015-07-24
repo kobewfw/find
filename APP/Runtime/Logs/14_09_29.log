@@ -1,0 +1,371 @@
+[ 2014-09-29T07:43:58+08:00 ] 127.0.0.1 /find/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.057802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.075261s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.116145s ]
+INFO: [ view_template ] --END-- [ RunTime:0.116371s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:1.248063s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.248390s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.072127s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.055638s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.031212s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003175s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.162872s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.033719s ]
+INFO: [ view_end ] --END-- [ RunTime:0.033922s ]
+
+[ 2014-09-29T07:44:29+08:00 ] 127.0.0.1 /find/index.php/Member/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.031210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.031352s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002935s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003178s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.037109s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037284s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000762s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000704s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000587s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000835s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003185s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000911s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2014-09-29T07:46:55+08:00 ] 127.0.0.1 /find/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001070s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001190s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014890s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000775s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000746s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000569s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000827s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003215s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000903s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001007s ]
+
+[ 2014-09-29T07:47:25+08:00 ] 127.0.0.1 /find/index.php/Member/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001083s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000796s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000914s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012178s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001135s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001002s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000738s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004469s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000907s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2014-09-29T07:47:41+08:00 ] 127.0.0.1 /find/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001094s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000931s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001140s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.019119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019272s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000676s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000592s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000447s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002727s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000855s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2014-09-29T07:47:43+08:00 ] 127.0.0.1 /find/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000592s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000709s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013133s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013247s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000728s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000595s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000449s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002772s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000812s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2014-09-29T07:47:43+08:00 ] 127.0.0.1 /find/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000614s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000730s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.013812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013925s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000687s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000591s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000457s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002740s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2014-09-29T07:47:59+08:00 ] 127.0.0.1 /find/index.php/Member/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001314s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001042s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001265s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012578s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000649s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000588s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000457s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002686s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000774s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000879s ]
+
+[ 2014-09-29T07:48:34+08:00 ] 127.0.0.1 /find/index.php/Member/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001088s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000750s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000899s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011783s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000720s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000626s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000488s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002854s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000802s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2014-09-29T07:48:37+08:00 ] 127.0.0.1 /find/index.php/Member/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000857s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001023s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.012477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012633s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000666s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000593s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000453s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002703s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000769s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000874s ]
+
+[ 2014-09-29T07:48:38+08:00 ] 127.0.0.1 /find/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000611s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000728s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.014411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014555s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000745s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000604s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000452s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002795s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000784s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2014-09-29T07:49:15+08:00 ] 127.0.0.1 /find/index.php/Member/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001044s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001869s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000749s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000878s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.011633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011763s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000791s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000702s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000571s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000803s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003158s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000883s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000990s ]
+
+[ 2014-09-29T07:49:19+08:00 ] 127.0.0.1 /find/index.php
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001228s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001401s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\e5b19ddd3d471b21bbda02c5e4185b4b.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.020367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020541s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000719s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000601s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000449s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000716s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002779s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000846s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2014-09-29T07:49:52+08:00 ] 127.0.0.1 /find/index.php/Member/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001224s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000786s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000903s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant register - assumed 'register' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 17 行.
+NOTIC: [8] Use of undefined constant checkEmail - assumed 'checkEmail' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 18 行.
+NOTIC: [8] Use of undefined constant checkNicheng - assumed 'checkNicheng' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 19 行.
+NOTIC: [8] Use of undefined constant checkUser - assumed 'checkUser' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 20 行.
+NOTIC: [8] Use of undefined constant login - assumed 'login' G:\www\find\APP\Runtime\Cache\0b3707b7e303f2c6deb8da69852d9ce3.php 第 21 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.010970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011103s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000704s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000611s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000459s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002792s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000827s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000943s ]
+

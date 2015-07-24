@@ -1,0 +1,312 @@
+.ui-dialog{
+	border:1px solid #0666C5;
+	background-color: #fff;
+}
+
+#cont{
+	position: relative;
+	width:960px;
+	margin: 0px auto;
+	top:10px;
+}
+#cont .left{
+	width:650px;
+	border-radius: 3px;
+	background-color: #fff;
+	float: left;
+}
+.dalaba{
+	margin-top: 5px;
+	width:650px;
+	background-color: #F9F9F9;
+	margin-bottom: 10px;
+	border-radius: 2px;
+}
+.dalaba h3{
+	font-size: 17px;
+	color: #0666C5;
+}
+.dalaba span{
+	display: block;
+	width:15px;
+	height:15px;
+	float: left;
+	background-image: url(../Images/sign.png);
+	background-position: -145px -160px;	
+}
+.dalaba p{
+	padding: 5px 0px 5px 0px;
+	line-height: 180%;
+	font-size: 13px;
+}
+.dalaba a{
+	font-size: 13px;
+	color:#0666C5;
+}
+
+#cont .left h2{
+	padding: 5px 0px 0px 0px;
+	color: #0666C5;
+	font-size: 17px;
+	float: left;
+	margin-bottom: 20px;
+
+}
+#cont .left .content{
+
+	float: left;
+	width:650px;
+	font: 12px Helvetica,Arial,sans-serif;
+	margin-bottom: 25px;
+}
+#cont .summary{
+	background-color: #F9F9F9;
+	width:650px;
+	margin-top: 5px;
+	font:12px Helvetica,Arial,sans-serif;
+	color:#555;
+	line-height: 180%;
+}
+#cont .title a{
+	font-size: 12px;
+	color: #999;
+}
+#cont .title{
+	width:650px;
+}
+#cont .title .biaoti{
+	display: block;
+	float: left;
+	font-size: 15px;
+	color:#225599;
+}
+#cont .title .biaoti:hover{
+	color: #fff;
+	background-color: #0666C5;
+}
+#cont .title span{
+	font-size: 12px;
+	color:#999;
+}
+#cont .title .biaoti~a:hover{
+	color:#225599;
+}
+#cont .footer{
+	margin-top: 10px;
+}
+#cont .footer .zan{
+	display: block;
+	width:15px;
+	height:15px;
+	float: left;
+	background-image: url(../Images/sign.png);
+	background-position: -0px -32px;
+}
+#cont .footer a{
+	display: block;
+	float: left;
+	margin-right: 10px;
+	font-size: 12px;
+	color: #999;
+}
+#cont .footer a:hover .zan{
+	background-image: url(../Images/sign-hover.png);
+	background-position: -0px -34px;
+}
+#cont .footer a:hover{
+	color: #2E83FF;
+}
+#cont .footer .taolun{
+	display: block;
+	width:15px;
+	height:15px;
+	float: left;
+	background-image: url(../Images/sign.png);
+	background-position: -130px -97px;
+}
+#cont .footer a:hover .taolun{
+	background-image: url(../Images/sign-hover.png);
+	background-position: -130px -97px;	
+}
+
+
+
+
+
+
+#cont .right{
+	width:270px;
+	float: right;
+}
+#cont .right .hot_biaoqian{
+	padding:5px 0px 0px 0px; 
+}
+#cont h5{
+	font-size: 15px;
+	margin-bottom: 10px;
+	color:#555;
+}
+#cont img{
+	width:50px;
+	height:50px;
+}
+#cont .hot_biaoqian button{
+	margin-bottom: 5px;
+	margin-right: 5px;
+	cursor: pointer;
+	font-size: 13px;
+	width:40px;
+	height:25px;
+	border: none;
+	background-color: #EFF6FA;
+	color: #69A8DE;
+}
+#cont .hot_biaoqian button:hover{
+	background-color: #0666C5;
+	color: #fff;
+}
+#cont .hot_biaoqian {
+	margin-bottom: 15px;
+}
+#cont .hot_group ul{
+	width:270px;
+}
+#cont .hot_group ul li{
+	margin-top: 10px;
+	height:60px;
+	border-bottom:1px dashed #ddd;
+	width:270px;
+}
+#cont .hot_group ul li .group_img{
+	float: left;
+}
+.hot_group_info{
+	width:200px;
+	float: right;
+}
+.hot_group_info a{
+	color:#0666C5;
+	font-size: 13px;
+}
+.hot_group_info span{
+	color: #999;
+	font-size: 13px;
+	margin-left: 10px;
+}
+.hot_group_info p{
+	margin-top: 10px;
+	color: #999;
+	font-size: 13px;
+	overflow: hidden;
+	height:15px;
+}
+.hot_group_info a:hover{
+	color: #fff;
+	background-color: #0666C5;
+}
+.hot_group .huanyipi{
+	margin-right: 5px;
+	display: block;
+	width:15px;
+	height:15px;
+	float: right;
+	background-image: url(../Images/sign.png);
+	background-position: -130px -65px;
+	cursor: pointer;
+}
+.hot_group .huanyipi:hover{
+	background-image: url(../Images/sign-hover.png);
+	background-position: -130px -65px;	
+}
+.teacher{
+	margin-top: 10px;
+}
+.teacher ul li {
+	margin-bottom: 15px;
+}
+.teacher ul li a{
+	font-size: 13px;
+	color:#0666C5;
+}
+.teacher ul li a:hover{
+	background-color: #0666C5;
+	color: #fff;
+}
+.teacher ul li span{
+	font-size: 13px;
+	color: #999;
+}
+.teacher ul li p{
+	margin-top: 8px;
+	font-size: 13px;
+	color: #555;
+	height:15px;
+	overflow: hidden;
+}
+.teacher ul li p~p{
+	overflow: hidden;
+	height:15px;
+	background-color: #F9F9F9;
+}
+.teacher ul li p~p a{
+	color: #999;
+}
+.teacher ul li p~p a:hover{
+	color: #0666C5;
+	background-color: #F9F9F9;
+}
+.teacher .wenti{
+	display: block;
+	width:15px;
+	height:15px;
+	float: left;
+	background-image: url(../Images/sign.png);
+	background-position: -130px -129px;
+}
+
+
+
+/***分页样式**/
+.page span{
+	display: inline-block;
+	text-align: center;
+	line-height: 15px;
+	height:15px;
+	width:40px;
+	background-color: #225599;
+	color:#fff;
+	font-size: 12px;
+
+}
+
+.page {
+	height: 15px;
+	line-height: 15px;
+	color:#666;
+}
+.page a{
+	display: inline-block;
+	text-align: center;
+	line-height: 15px;
+	height:15px;
+	width:40px;
+	background-color: #225599;
+	color:#fff;
+	font-size: 12px;
+	opacity: 0.7;
+}
+.page a:hover{
+	background-color: #225599;
+	opacity: 1;
+}
+
+
+/**点赞功能**/
+.zan_z{
+	font-size: 12px;
+}
+
+
+
+
+

@@ -1,0 +1,93 @@
+	<script>
+		var regUrl = '{:U("Index/register")}';
+		var checkEmail = '{:U("Index/checkEmail")}';
+		var checkNicheng = '{:U("Index/checkNicheng")}';
+		var checkUser = '{:U("Index/checkUser")}';
+		var loginUrl = '{:U("Index/login")}';
+		var direcUrl = '{:U(index)}';
+	</script>
+</head>
+<body>
+	<header>
+		<nav>
+			<h5>FIND</h5>
+			<ul class="menu">
+				<li><a href="__APP__">首页</a></li>
+				<li><a href="#">名师</a></li>
+				<li><a href="#">发现</a></li>
+			</ul>
+			<div class="member">
+				<if condition="cookie('uid')" >
+				<a class="user_info" href="#" alt="{$user.nicheng}"><span></span>{$user.nicheng}</a>
+				<ul class="user_info_ul hidden">
+					<li><a href="__APP__/Member/index">主页</a></li>
+					<li><a href="#">消息</a></li>
+					<li><a href="{:U('Index/logout')}">退出</a></li>
+				</ul>
+					
+				<else /> 
+			
+				<a id="user_login" rel="leanModal" name="login" href="#login">登陆</a>
+
+				</if>
+			</div>
+		</nav>
+	</header>
+
+<!----登陆框------>
+
+	<div id="login">
+		<div class="user_login">
+				<div class="login_bar">
+					<h5>FIND登陆</h5>
+					<span class="modal_close"></span>
+				</div>
+		
+				<form id="form_login" method="post" action="01.html">
+					<p>
+						<label for="email">邮箱</label>
+						<input id="login_email" type="text" name="email"/>
+
+					</p>
+					<p>
+						<label for="email">密码</label>
+						<input id="email" type="password" name="password"/>
+					</p>
+					<p>
+						<input type="submit" value="提交" id="login_submit"/><a href="#"class="dir_reg">注册<span></span></a>
+					</p>
+				</form>
+				
+		</div>
+		<div class="user_reg hidden">
+				<div class="reg_bar">
+					<h5>Find注册</h5>
+					<span class="modal_close"></span>
+				</div>
+				<form id="form_reg" method="post" action="01.html">
+					<p>
+						<label for="email">邮箱</label>
+						<input id="email" type="text" name="email"/>
+
+					</p>
+					<p>
+						<label for="nicheng">昵称</label>
+						<input id="nicheng" type="text" name="nicheng"/>
+					</p>
+					<p>
+						<label for="password">密码</label>
+						<input id="password" type="password" name="password" />
+
+					</p>
+					<p>
+						<label for="repass">确认密码</label>
+						<input id="repass" type="password" name="repass"/>
+					</p>
+					<p>
+						<input type="submit" value="注册" id="reg_submit" /><a href="#"class="dir_login">登陆<span></span></a>
+					</p>
+				</form>
+		</div>
+	</div>
+
+	<div class="lean_overlay"></div>

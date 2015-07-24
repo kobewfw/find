@@ -1,0 +1,22 @@
+[ 2014-09-14T19:18:11+08:00 ] 127.0.0.1 /sunbook/?
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.107523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.190460s ]
+SQL: SHOW COLUMNS FROM `xueyuan` [ RunTime:1.320242s ]
+SQL: SELECT * FROM `xueyuan` ORDER BY xid  [ RunTime:0.052887s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.083103s ]
+INFO: [ view_template ] --END-- [ RunTime:0.083594s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.417088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.417371s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.055258s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.088674s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000766s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000936s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.146059s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001158s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001279s ]
+

@@ -1,0 +1,91 @@
+<include file='Public:header' />
+	<title>Find - 专业大学生交流平台</title>
+	<link href="__PUBLIC__/Css/index.css" rel="stylesheet">
+<script>
+	var dianZan = "{:U(dianZan)}";
+</script>
+<include file='Public:nav' />
+	<div id="cont">
+			<div class="left">
+				<!--<div class="dalaba">
+					<h3>大喇叭<span></span></h3>
+					<p>1.国庆节放假安排<br />
+					   2.考研同学注意了,今天晚上J5-216举行海文讲座<br />
+					   3.上<a href="#">饿了么</a>网订餐，满十元立减5元，还等什么，饿了么帮你省钱！
+					</p>
+				</div>
+			-->
+				<h2>热门话题</h2>
+				<foreach name="huati" item="vo">
+				<div class="content">
+					<div class="title"><a href="__APP__/Group/huati/hid/{$vo.hid}" class="biaoti">{$vo.title}</a></h3> &nbsp;<span>来自</span>&nbsp;<a href="__APP__/Group/index/gid/{$vo.gid}">{$vo.gname}</a></div>
+					<p class="summary">
+						{$vo.content}
+					</p>
+					<div class="footer"><a href="javascript:void(0)" hid="{$vo.hid}"class="zan_a" nid="zan{$vo.hid}"><span class="zan"></span>赞(<span class="zan_z">{$vo.znum}</span>)</a><a href="#"><span class="taolun"></span>讨论({$vo.pnum})</a>
+					</div>
+				</div>
+
+			</foreach>
+			<div class="page" style="float:left;font-size:13px;">{$page}</div>
+			</div>
+
+
+			<div class="right">
+				<div class="hot_biaoqian">
+					<h5>热门标签</h5>
+					<button>学习</button><button>社团</button><button>考研</button><button>考证</button><button>体育</button><button>创业</button><button>兼职</button><button>研究</button><button>名师</button>
+				</div>
+				<div class="hot_group">
+					<h5>精选圈子<span class="huanyipi"></span></h5>
+					<ul>
+						<li>
+							<a href="#" class="group_img"><img src="__PUBLIC__/Images/02.jpg"/></a>
+							<div class="hot_group_info">
+								<a href="#">海文考研</a><span>26人加入</span>
+								<p class="qianming">考研兄弟们快来考研兄弟们快来们快来吧来吧</p>
+							</div>
+						</li>
+
+						<li>
+							<a href="#" class="group_img"><img src="__PUBLIC__/Images/02.jpg"/></a>
+							<div class="hot_group_info">
+								<a href="#">学生联合会</a><span>25人加入</span>
+								<p class="qianming">学生联合会--大学最具有影响力的组织</p>
+							</div>
+						</li>
+
+						<li>
+							<a href="#" class="group_img"><img src="__PUBLIC__/Images/02.jpg"/></a>
+							<div class="hot_group_info">
+								<a href="#">计算机考证</a><span>100人加入</span>
+								<p class="qianming">计算机考证的最新消息...</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="teacher">
+					<h5>名师解答</h5>
+					<ul>
+						<li>
+							<a href="#">李向红老师</a>&nbsp;<span>回答->啤酒与糖</span>
+							<p><span class="wenti"></span>研究生方向怎样去选择？？</p>
+							<p><a href="#">对于你说的研究生方向问题,我在这里做了详细的回答</a></p>
+						</li>
+						<li>
+							<a href="#">王老师</a>&nbsp;<span>回答->开着拖拉机迎接冬天的到来</span>
+							<p><span class="wenti"></span>怎样去创业？</p>
+							<p><a href="#">对于你说的研究生方向问题,我在这里做了详细的回答</a></p>
+						</li>
+						<li>
+							<a href="#">那图鲁教授</a>&nbsp;<span>回答->布宜诺斯艾利斯的玫瑰</span>
+							<p><span class="wenti"></span>经济学如何去学好</p>
+							<p><a href="#">看国外的书籍很重要...</a></p>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+	</div>
+<include file="Public:footer" />
+
